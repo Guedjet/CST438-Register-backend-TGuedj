@@ -33,4 +33,3 @@ CREATE TABLE enrollment (
   FOREIGN KEY (course_id) REFERENCES course (course_id) on delete cascade, 
   FOREIGN KEY (student_id) REFERENCES student (student_id) on delete cascade 
 );
-
